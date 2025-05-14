@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Blog</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Posts</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="blog-posts">
+        <article>
+          <h2>Welcome to My Blog</h2>
+          <p>This is my first post. I'm learning web development!</p>
+          <button onclick="toggleLike(this)">👍 Like</button>
+        </article>
+
+        <article>
+          <h2>Why I Love JavaScript</h2>
+          <p>
+            JavaScript lets you make interactive websites. It’s fun and
+            powerful!
+          </p>
+          <button onclick="toggleLike(this)">👍 Like</button>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
